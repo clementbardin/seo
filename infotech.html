@@ -1,13 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InfoTech | Accueil</title>
+    <meta name="description" content="Site officiel de l'école d'informatique InfoTech.">
+    <title>Bienvenue sur Lyon InfoTech - Ecole d'informatique</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
+
 <body>
-    
-    <script src="script.js"></script>
+    <header>
+        <div class="header">
+            <h1 class="main-title">Bienvenue sur InfoTech | Ecole d'informatique en alternance</h1>
+            <p>Vous souhaitez vous lancer dans le domaine de <span class="bold">l'informatique ?</span> <span class="bold">InfoTech</span>, nouvelle école implémentée au
+                coeur
+                du centre-ville de Lyon vous propose de vous lancer dans ce domaine via de nombreuses offres de
+                formations
+                variés et complètes, avec un accompagnement en alternance 100 % assurés grâce à une équipe pédagogique
+                investie et passionnée.</p>
+            <img src="img/infotech-accueil.jpg" alt="Aperçu de notre école" width="1000" height="600">
+        </div>
+    </header>
+    <navbar class="navbar">
+        <div class="accueil">
+            <div class="navbar-options">
+                <ul>
+                    <li id="section-formation">Nos formations</li>
+                    <li id="section-ecole">Notre école</li>
+                    <li id="section-futur">Votre futur</li>
+                    <li id="section-partenaire">Nos partenaires</li>
+                    <li id="section-contact">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </navbar>
+
+    <main class="main">
+        <article class="article" id="formations">
+            <div>
+                <h2 class="h2-title">Nos formations</h2>
+                <h3 class="h3-title">Etant donné la jeunesse de notre institution, nous ne proposons que deux types
+                    de formations
+                    actuellement. D'autres sont évidemment à venir et nous tâcherons d'assurer tous les pôles
+                    différents du
+                    vaste monde de l'Informatique.</h4>
+                <h4>Notre Bachelor Chef de Projet Informatique</h4>
+                <div class="formation-dev">
+                    <p>Le Bachelor Chef de Projet Informatique d'InfoTech s’étend sur 3 ans et a pour objectif de
+                        donner aux
+                        étudiants la base de connaissances techniques et managériales qui permettront aux étudiants
+                        de
+                        maîtriser tout l’écosystème : informatique, algorithmes, programmation, statistiques, mais
+                        également
+                        applications sectorielles, management et études de cas.</p>
+                </div>
+
+                <div class="formation-cyber">
+                    <h4>Notre bachelor en Cyber-Sécurité</h4>
+                    <p>Un bachelor en 3 ans avec un programme conçu pour transformer ses étudiants en experts de la
+                        cyberdéfense. Grâce à une pédagogie concrète tenant compte des défis réels du secteur, ils
+                        auront
+                        accès à un enseignement de pointe dispensé par des instructeurs aux profils variés et
+                        prestigieux.
+                        Ils mettront ainsi à profit les dernières technologies et les meilleurs enseignements pour
+                        forger
+                        leur avenir dans le domaine de la cybersécurité.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="article" id="ecole">
+            <div class="ecole">
+                <h2 class="h2-title">Notre campus</h2>
+                <p>InfoTech Lyon vous accueille au sein du campus Lyon Cordeliers - Place des Jacobins, situé à
+                    proximité
+                    des
+                    quais de Saône et en pleine
+                    Presqu’île Lyonnaise. Rejoignez une équipe pédagogique passionnée et conviviale dans un
+                    environnement
+                    dynamique à taille humaine.
+
+                    Notre école d'informatique à Lyon est labellisée "Métropole French Tech", reconnaissant un
+                    environnement
+                    économique particulièrement dense, dynamique et visible à l'international, particulièrement dans le
+                    domaine
+                    du numérique. Elle propose actuellement 2 formations en informatique variées, accessibles en
+                    alternance
+                    ou
+                    en VAE. InfoTech
+                    Lyon vous forme à de nombreux métiers d’avenir dans un secteur qui ne connaît pas la crise.</p>
+                <img src="img/info-variés.jpg" alt="Intérieur du campus d'InfoTech" class="img-info">
+            </div>
+        </article>
+
+        <article class="article" id="futur">
+            <div class="futur">
+                <h2 class="h2-title">Votre futur</h2>
+                <p>Chez Infotech, nous croyons fermement que l'avenir de nos élèves et de l'éducation est crucial pour
+                    façonner
+                    le monde de demain. Nous croyons que chaque élève a le potentiel de devenir un innovateur et un
+                    leader
+                    dans
+                    le domaine de l'informatique, et nous nous engageons à fournir les
+                    ressources et le soutien nécessaires pour les aider à réaliser leurs aspirations. Nous sommes
+                    déterminés à façonner un avenir prometteur pour nos élèves et à jouer un rôle essentiel dans la
+                    transformation de l'éducation en informatique. C'est pour cela que notre équipe a décidé
+                    d'introduire
+                    trois
+                    nouvelle formations pour la rentrée 2024 sur des domaines comme la cyber-sécurité, l'intelligence
+                    artificelle et l'informatique quantique.</p>
+            </div>
+        </article>
+
+        <article class="article" id="partenaire">
+            <div class="partenaires">
+                <h2 class="h2-title">Notre réseau de partenaires</h2>
+                <p>
+                    InfoTech, <span class="bold">c'est aussi : </span>
+                <ul class="ul">
+                    <li class="li">Pour vous accompagner dans la recherche d'alternance, nous possédons un réseau de
+                        plus de 50
+                        entreprises partenaires lyonnaises et nationales de renom : Blablacar, Deezer,
+                        Doctolib...</li>
+                    <li class="li">Un accompagnement par des encadrant·e·s pédagogiques, qui disposent tous d’une
+                        expérience pro de
+                        plus de
+                        5 ans dans le secteur du développement web</li>
+                    <li class="li">Un campus lyonnais où tu te sens comme à la maison</li>
+                    <li class="li">Une formation en informatique sans pré-requis technique ni de diplôme (pas besoin
+                        d’avoir le bac !)
+                    </li>
+                    <li class="li">Une école finançable par des aides et subventions publiques : cpf, aides régionales,
+                        bourses
+                        privées…</li>
+                    <li>3 rentrées par an : janvier, mai et octobre.</li>
+                </ul>
+                <h2 class="h2-title">InfoTech est conventionnée Qualiopi, Paris Code, Pôle Emploi, Grande École du
+                    Numérique et France
+                    Compétences.</h2>
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h2 class="h2-title">Informations utiles et contact</h2>
+            <p>La première année chez InfoTech Lyon est payante (3800 euros) et la deuxième année est gratuite et
+                rémunérée, grâce à l’alternance (selon ton âge – à peu près un SMIC).</p>
+            <h3 class="h3-title">Rassure-toi, il existe plusieurs dispositifs avantageux pour financer ta première
+                année de formation
+                chez
+                InfoTech School !</h3>
+            <ul class="ul">
+                <li class="li"> Le paiement échelonné (jusqu’à 10 fois sans frais)</li>
+                <li class="li"> Le Compte Personnel de Formation (CPF)</li>
+                <li class="li"> La bourse du Crous (pour les étudiants)</li>
+                <li class="li"> Les aides et l’accompagnement de l’AGEFIPH (pour les personnes en situation de
+                    handicap).</li>
+                <li class="li"> Le paiement différé grâce à un prêt étudiant (en fonction de ton âge)</li>
+            </ul>
+        </div>
+
+        <div class="certif">
+            <img src="img/logo_qualiopi.jpeg" alt="Logo de Qualiopi pour certification CPF">
+            <img src="img/pole_emploi.png" alt="Logo de Pôle Emploi pour certification diplôme">
+            <div class="copyright">
+                <p>Copright @2024 | InfoTech</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
+
 </html>
