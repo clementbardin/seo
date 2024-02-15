@@ -1,3 +1,5 @@
+//Script permettant d'ajouter une fonctionnalité d'ancre
+
 document.querySelectorAll('.navbar-options ul li').forEach(item => {
   item.addEventListener('click', event => {
     const sectionId = event.target.id.replace('section-', '');
